@@ -16,7 +16,7 @@ if (postId) {
                     `
 
             postDetails.appendChild(postCard)
-        })git
+        })
         .catch(error => {
             console.error('Error fetching post:', error)
         })
