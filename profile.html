@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PROFILE PAGE</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <script src="profile.js" defer></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="margin10 d-inline-flex gap-2">
+    <p>Logged in</p>
+    <p id="username-display"></p>
+  </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse d-flex space-between" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">Home</a>
+      <a class="nav-item nav-link active" href="gallery.html">Gallery</a>
+      <a class="nav-item nav-link active" href="profile.html">User profile</a>
+    </div>
+    <div>
+      <a class="nav-item nav-link active margin10" href="login.html">Log out</a>
+    </div>
+  </div>
+</nav>
+<div>
+  <h1 class="margin50 text-center">USER PROFILE</h1>
+</div>
+<div class="container mt-5n d-flex space-evenly gap-5">
+    <div class="container gap-5 d-flex column">
+      <img id="myImg" src="https://cdn.pixabay.com/photo/2022/09/08/15/16/cute-7441224_1280.jpg" alt="...">
+      <button id="myButton">Change Image</button>
+    </div>
+    <div class="container">
+      <h3>Now signed in as:</h3>
+      <p id="username-display1"></p>
+      <h3>Change current password: </h3>
+      <div class="mb-3">
+        <label for="passwordChange"></label><input type="password" class="form-control" id="passwordChange" placeholder="Enter password" required>
+        <p></p>
+        <button type="submit" class="btn btn-dark w-100">Change</button>
+      </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+</body>
+</html>

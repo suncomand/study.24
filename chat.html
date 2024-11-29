@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CHAT PAGE</title>
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="chat.js" defer></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="margin10 d-inline-flex gap-2">
+        <p>Logged in</p>
+        <p id="username-display"></p>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Home</a>
+            <a class="nav-item nav-link active" href="gallery.html">Gallery</a>
+            <a class="nav-item nav-link active" href="profile.html">User profile</a>
+        </div>
+        <div>
+            <a class="nav-item nav-link active margin10" href="login.html">Log out</a>
+        </div>
+    </div>
+</nav>
+
+<div>
+    <h1 class="margin25">CHAT BOT</h1>
+    <p>How to use: write -  hello, then - how are you? then - what's your favorite color? </p>
+</div>
+
+<div id="chat">
+    <div id="messages"></div>
+    <div id="input-container" class="d-flex row">
+        <label for="input"></label><input type="text" id="input"/>
+        <button id="send-button">Send</button>
+    </div>
+</div>
+
+
+
+</body>
+</html>
